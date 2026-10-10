@@ -1,0 +1,21 @@
+# Dataset downloaded from Zenodo (not part of this repository)
+data/
+
+# Training outputs and weights
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db

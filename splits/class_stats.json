@@ -1,0 +1,45 @@
+{
+  "train_images": 12792,
+  "val_images": 1827,
+  "test_images": 3656,
+  "train_boxes": {
+    "Quartzity": 746,
+    "Live_Knot": 14941,
+    "Resin": 2438,
+    "Dead_Knot": 8440,
+    "Knot_with_crack": 1585,
+    "Knot_missing": 354,
+    "Crack": 1487,
+    "Marrow": 807
+  },
+  "val_boxes": {
+    "Marrow": 122,
+    "Live_Knot": 2037,
+    "Resin": 347,
+    "Quartzity": 121,
+    "Knot_with_crack": 245,
+    "Dead_Knot": 1192,
+    "Knot_missing": 55,
+    "Crack": 236
+  },
+  "test_boxes": {
+    "Resin": 670,
+    "Quartzity": 208,
+    "Live_Knot": 4246,
+    "Dead_Knot": 2353,
+    "Knot_with_crack": 446,
+    "Crack": 446,
+    "Knot_missing": 94,
+    "Marrow": 252
+  },
+  "unknown_labels_dropped": {},
+  "parquet_files": [
+    "train-00000-of-00005-aee708e5dcec3620.parquet",
+    "train-00001-of-00005-2be8dd5a78dccedb.parquet",
+    "train-00002-of-00005-81cab1be3ef4b976.parquet",
+    "train-00003-of-00005-46f348d8df59f63c.parquet",
+    "train-00004-of-00005-cfde1ad8fb3dd17a.parquet"
+  ],
+  "full_dataset_images": 20276,
+  "full_kept_images_before_subset": 18275
+}
