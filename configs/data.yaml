@@ -1,6 +1,0 @@
-path: ./data/wood_yolo_full
-train: train/images
-val: val/images
-test: test/images
-nc: 8
-names: ['Quartzity', 'Live_Knot', 'Marrow', 'Resin', 'Dead_Knot', 'Knot_with_crack', 'Knot_missing', 'Crack']
